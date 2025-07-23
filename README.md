@@ -1,3 +1,9 @@
+# About
+
+This repository contains the code for generating the benchmark results in the following paper:
+
+Olson et al. Ax A Platform for Adaptive Experimentation. AutoML Conference, 2025. https://openreview.net/forum?id=U1f6wHtG1g
+
 # Installation
 
 We use Conda environments to manage dependencies. All dependencies are pinned
