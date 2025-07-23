@@ -1,0 +1,15 @@
+# Using latest version of benchmark problem packages as of datestring listed
+pyarrow==19.0.0                         # 2025-02-04
+git+https://github.com/cornellius-gp/linear_operator.git@dca438e47dd8a380d0f4e6b30c406e187062c8bd    # 2025-06-13
+git+https://github.com/cornellius-gp/gpytorch.git@b017b9c3fe4de526f7a2243ce12ce2305862c90b           # 2025-06-13
+git+https://github.com/pytorch/botorch.git@13444bea18ff23daf23e65c3be803b4346324d83                  # 2025-06-13
+ax-platform[mysql] @ git+https://github.com/facebook/Ax.git@89755775be24fb10e791d2bc694e3abd8ecc4534 # 2025-06-13
+pyre-extensions # TODO: pin version
+pytest # TODO: pin version
+
+# Using latest version of benchmark problem packages as of datestring listed
+syne-tune[basic,blackbox-repository] @ git+https://github.com/syne-tune/syne-tune@c34bfa1c1e846e449e5b3349d54d377f3db9fc69  # 2025-03-10
+coco-experiment==2.6.101                # 2025-01-30
+
+# For plotting benchmark results.
+seaborn==0.13.2                         # 2025-03-31

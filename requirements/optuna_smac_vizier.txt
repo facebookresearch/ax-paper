@@ -1,0 +1,11 @@
+-r base.txt
+
+# Using latest version of baseline libraries as of datestring listed
+optuna==4.2.0               # 2025-02-06
+# swig is necessary for installing Vizier dependencies.
+swig==4.3.0                 # 2025-03-31
+# NOTE: 2.3.1 is a website-only update and is not available on PyPI.
+smac==2.3.0                 # 2025-02-06
+# swig is necessary for installing Vizier dependencies.
+swig==4.3.0                 # 2025-03-31
+google-vizier[jax]==0.1.24  # 2025-02-06

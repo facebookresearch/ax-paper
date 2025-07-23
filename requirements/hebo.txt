@@ -1,0 +1,3 @@
+-r base.txt
+# Using latest version of datestring listed
+hebo==0.3.6                 # 2025-02-06
